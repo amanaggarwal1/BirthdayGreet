@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Birthday Greet</string>
+    <string name="name">Name</string>
+    <string name="create_card">Create Card</string>
+</resources>
