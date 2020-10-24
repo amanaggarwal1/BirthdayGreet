@@ -15,7 +15,7 @@ class BirthdayGreetActivity : AppCompatActivity() {
         setContentView(R.layout.activity_birthday_greet)
 
         val name = intent.getStringExtra(NAME_EXTRA)
-        personName.text = "Happy Birthday $name"
+        personName.text = "Happy Birthday\n$name!"
 
     }
 }

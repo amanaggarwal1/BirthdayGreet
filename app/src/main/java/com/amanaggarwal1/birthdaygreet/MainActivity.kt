@@ -20,6 +20,9 @@ class MainActivity : AppCompatActivity() {
         if(name.isEmpty()){
             Toast.makeText(this, "Please enter a name", Toast.LENGTH_SHORT).show()
             return
+        }else if(name.length > 40){
+            Toast.makeText(this, "Please enter a shorter name", Toast.LENGTH_SHORT).show()
+            return
         }
         intent = Intent(this, BirthdayGreetActivity::class.java)
         intent.putExtra(BirthdayGreetActivity.NAME_EXTRA , name)
