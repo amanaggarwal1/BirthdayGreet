@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     fun createCard(view: View) {
         val name = personNameET.editableText.toString()
 
-        if(name.isEmpty()){
+        if(name.isEmpty() || name==null){
             Toast.makeText(this, "Please enter a name", Toast.LENGTH_SHORT).show()
             return
         }else if(name.length > 40){
