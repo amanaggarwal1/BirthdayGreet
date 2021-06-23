@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Birthday Greet</string>
-    <string name="name">Name</string>
+    <string name="name">Enter a name here</string>
     <string name="create_card">Create Card</string>
     <string name="happy_birthday">Happy Birthday</string>
+    <string name="let_s_make_some_greetings">Let\'s make some greetings</string>
 </resources>
